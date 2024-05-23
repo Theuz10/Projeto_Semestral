@@ -1,0 +1,292 @@
+#titulo{
+    color: black; /*cor de fundo da caixa de texto do h1 */
+    text-align: center;
+}
+
+body{
+    
+    background-image: url('Tela_6.png');
+    background-size: cover; /*deixa a imagem de fundo até o final*/          
+}
+ 
+.formulario1{
+    align-items: center; /* os inputs serão fixados no meio   */
+    display: flex; /*todos os items centralizado no meio da tela  */
+    padding-left: 310px; /* espaçamento a esquerda */
+    height: 55px;
+    font-family: 'Courier New', Courier, monospace; /* irá alterar as letras de todos que estão dentro do formulario 1 */
+}
+ 
+#data{
+    width: 30px; /*espaçamento das palavra com 30 pixels*/
+    padding-right: 20px; /* espaçamento da palavra a 20 pixels */
+    
+}
+
+#date{
+    color: black;
+    background-color: rgb(0, 204, 255); /* ira mudar a cor de fundo do input */
+}
+
+#local-açao{
+    padding-left: 10px; /* espaçamento do input de 10 pixels a esquerda */
+    padding-right: 2px; /* espaçamento do input de 2 pixels a direita */
+}
+
+#local{
+    background-color: rgb(0, 204, 255); /* cor de fundo do input */
+}
+
+#nome-voluntario{
+    padding-left: 5px; /* espaçamento a esqueda com 5 pixels */
+    padding-right: 2px; /* espaçamento a esqueda com 2 pixels */
+    
+}
+
+#texto-nome-voluntario{
+    padding-left: 5px; /* espaçamento a esquerda com 5 pixels */
+    background-color: rgb(0, 204, 255); /* cor de fundo do input */
+
+}
+
+.formulario2{
+    display: flex; /* os inputs serão fixados no meio da tela  */
+    align-items: center; /* todos os items centralizado no meio da tela  */
+    padding-left: 280px; /* espaçamento de todo o formulario esquerda com 280 pixels  */
+    height: 70px; /* altura do formulario com 70 pixels  */
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 900px; /* espaçamento do formulario a  direita com 900 pixels  */
+    
+}
+
+#nascimento-entrevistado{
+    padding-right: 2px; /* espaçamento das palavra a direita com 2 pixels  */
+}
+
+#data-nascimento{
+    background-color: rgb(247, 204, 211);/* cor de fundo*/
+    padding-right: 200px; /* espaçamento a direira com 200 pixels  */
+}
+
+#genero{
+    
+    padding-right: 2px;/* espaçamento a direira com 2 pixels  */
+    padding-left: 9px; /* espaçamento a esquerda com 9 pixels  */
+    
+}
+
+#sexo{
+    background-color: rgb(247, 204, 211);/* cor de fundo da caixa de texto*/
+}
+
+#cidade-origem{
+    padding-right: 2px; /*espaçamento a direita com 2 pixels */
+    padding-left: 9px; /* espaçamento a esquerda com 9 pixels */
+}
+
+#cidade{
+    background-color:  rgb(247, 204, 211); /*com de fundo da caixa de texto */
+}
+
+.formulario3{
+    display: flex; /* os inputs serão fixados no meio da tela  */
+    align-items: center; /* todos os items centralizado no meio da tela  */
+    padding-left: 90px; /* espaçamento a esquerda com 90 pixels  */
+    text-align: center; /* alinhamento de texto centralizado */
+    height: 90px /* altura do formulario de 90 pixels */;
+    
+}
+
+#documento{
+    padding-right: 3px; /*espaçamento das palavras a direira com 3pixels */
+}
+
+#input-documento{
+    background-color: rgb(0, 204, 255); /* cor de fundo da caixa de texto*/
+}
+
+#contato-familia{
+    padding-left: 10px; /* espaçamento da palavra a esquerda */
+    padding-right: 5px; /* espaçamento da palavra a direita com  5 pixels  */
+    
+}
+
+#texto-pequeno{
+    width: 26px; /* caixa de texto pequena com 26 pixels*/
+    background-color:  rgb(0, 204, 255); /* cor de fundo da caixa de texto */
+    
+}
+
+#texto-grande{
+    padding-right: 3px; /* espaçamento a direita com 3 pixels  */
+    background-color:  rgb(0, 204, 255); /* cor de fundo da caixa de texto  */
+    
+}
+
+.formulario4{
+    display: flex; /*todos os items centralizado no meio da tela sendo um do lado do outro  */
+    align-items: center; /* todos os items centralizado no meio da tela  */
+    padding-left: 300px; /*espaçamento do formulario a esquerda com 570 pixels*/
+    text-align: center; /*alinhamento de texto no centro da tela*/
+    height: 200px; /*altura do formulario com 200 pixels */
+    width: 190px; /*largura da tela do formulario com 190 pixels*/
+    padding-top: 10px; /*espaçamento pra baixo com 10 pixels*/
+}
+
+#beneficio{
+    padding-left: 10px; /* espaçamento da palavra do texto a esquerda com 10 pixels  */
+    
+}
+
+#moradia{
+    background-color:  rgb(247, 204, 211); /* cor de fundo da caixa de texto  */
+}
+
+#albergue{
+    padding-left: 19px; /* espaçamento a esquerda da palavra com 9 pixels*/
+    padding-right: 3px; /* espaçamento a direita da palavra com 3 pixels  */
+}
+
+#text-albergue{
+    padding-left: 5px; /* aumento da caixa de texto com 5 pixels  */
+    background-color:  rgb(247, 204, 211); /* cor de fundo da caixa de texto */
+}
+
+#leito{
+    padding-left: 9px; /* espaçamento da palavra a esquerda com 9 pixels */
+    padding-right: 3px; /* espaçamento da palavra a direita com 3 pixels  */
+}
+
+#text-leito{
+    background-color: rgb(247, 204, 211); /* cor de fundo da caixa de texto  */
+}
+
+ .formulario5{
+    display: flex; /* todos os items centralizado no meio da tela  */
+    align-items: center; /* todos os items centralizado no meio da tela  */
+    text-align: center; /*alinhamneto de texto no centro da tela*/
+    padding-left: 95px;  /*espaçamento do formulario a esquerda com 95 pixels*/
+    padding-right: 50px; /*espaçamento do formulario a direita com 50 pixels*/
+    height: 210px; /*altura do formulario com 210 pixels*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#assistente-social{
+    padding-left: 9px; /* espaçamento da palavra a esquerda com 9 pixels  */
+    padding-right: 3px; /* espaçamento da palavra a direira com 3 pixels */
+}
+
+#text-assistente-social{
+    background-color:  rgb(0, 204, 255); /* cor de fundo ca caixa de texto */
+    
+}
+
+#contato-usuario{
+    padding-left: 5px; /* espaçamento da palavra a esquerda com 5 pixels  */
+    padding-right: 5px; /* espaçamento da palavra a direita com 5 pixels  */
+}
+#texto-contato{
+    background-color:  rgb(0, 204, 255); /* cor de fundo */
+
+}
+
+#texto-vulneravel{
+    padding-left: 8px; /*espaçamento da palavra da direita pra esquerda com 8 pixels*/
+    padding-right: 5px; /* espaçamento da palavra da esquerda pra direita com 5 pixels */
+}
+
+#vulneravel{
+    background-color:  rgb(0, 204, 255); /*cor de fundo da caixa de texto*/
+
+}
+
+.formulario6{
+    display: flex; /* todos os items centralizado no meio da tela sendo um em baixo do outro  */
+    align-items: center; /* todos os items centralizado no meio da tela */
+    padding-left: 20px; /* espaçamento do formulario a esquerda com 30 pixels  */
+    text-align: center; /* texto centralizado no centro da tela */
+    height: 300px; /* altura do formulario com 300 pixels depois do formulario antecessor  */
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#situaçao{
+    padding-right: 10px; /*espaçamento da palavra a direita com 10 pixels*/
+}
+
+#situaçao-usuario, #higiene, #refeiçao, #governo{
+    background-color:  rgb(247, 204, 211); /*cor de fundo das 4 caixas de texto */
+
+}
+
+.formulario7{
+    display: flex; /*todos o formulario centralizado no meio da tela */
+    align-items: center; /*todos os items centralizado no meio da tela */
+    padding-right: 90px; /*espaçamento do formulario a direita com 90 pixels*/
+    text-align: center; /*alinhamento de texto centralizado*/
+    padding-left: 90px; /*espaçamento do formulario a esquerda com 90 pixels*/
+    height: 220px;
+}
+
+#vicio{
+    padding-right: 3px; /*espaçamento da palavra a direita com 3 pixels*/
+}
+
+#vicio-droga,#tratamento-vicio,#parente,#grau-ensino{
+    background-color:  rgb(0, 204, 255); /*cor de fundo da 4 caixa de texto*/
+}
+
+#tratamento{
+    display: block;
+}
+
+
+ /*  
+texto se quiser alterar
+ #familia{} 
+*/
+
+
+ 
+ #escolaridade{
+    padding-right: 5px; /*espaçamento da palavra da direita pra esquerda com 5 pixels*/
+    padding-left: 3px; /*espaçamento da palavra da esquerda pra direta com 3 pixels*/
+}
+
+
+
+.formulario8{
+   display: flex; /* todos os items centralizado no meio da tela sendo um em baixo do outro  */
+   align-items: center; /*todos os items centralizado no meio da tela */
+   padding-right: 70px; /*espaçamento do formulario a direita com 70 pixels*/
+   text-align: center; /*alinhamento de texto centralizado*/
+   padding-left: 90px; /*espaçamento do formulario a esquerda com 90 pixels*/
+   height: 200px;
+}
+
+/* se quiser alterar os texto antes dos inputs
+#profissao,#trabalho,#doença,#problema
+*/
+
+
+#texto-profissao, #texto-trabalho, #texto-doença, #problema-saude{
+    background-color:  rgb(247, 204, 211); /* ira altera as 4 cores dos inputs */ 
+}
+
+
+.formulario9{
+    display: flex; /*todos os items centralizado no meio da tela */
+    align-items: center; /*todos os items centralizado no meio da tela */
+    padding-left: 10px;/*espaçamento da palavra do formulario com 10 pixels */
+    text-align: center; /* alinhamento do formulario no centro da tela */
+    height: 220px; /*altura do formulario depois do antecessor com 220 pixels*/
+    padding-right: 6px;
+}
+
+/*
+se quiser alterar  os texto
+#queixa-dental, #hobby, #disponibilidade-curso, #passeios-culturais{}
+*/
+
+#texto-queixa-dental, #texto-hobby, #texto-curso, #texto-passeios-culturais{
+    background-color:  rgb(0, 204, 255); /* ira altera as 4 cores dos inputs */ 
+}

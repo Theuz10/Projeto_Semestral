@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="Logo Fundo branco.png" type="image/x-icon">
+    <title>Cadastro Banho Solitario</title>
+</head>
+<body>
+    <header id = "imagem-fundo">
+        <div id="titulo">
+                <h1>Formulario de cadastro</h1>
+        </div>
+        <form action="cadastro.html" method="post">
+            <div class="formulario1">
+                
+                <label for="data" id="data">data:</label>
+                <br>
+                <input type="date" id="date" name="date" >
+                <br><br>
+                
+                <label for="local-açao" id="local-açao">local da ação:</label>
+                <br>
+                <input type="text" name="local" id="local" >
+                <br><br>
+                
+                <label for="nome-voluntario" id="nome-voluntario">nome do voluntario:</label>
+                <br>
+                <input type="text" name="texto-nome-voluntario" id="texto-nome-voluntario">
+                <br><br>     
+            
+            </div>
+
+            <div class="formulario2">
+                
+                <label for="nascimento-entrevistado" id="nascimento-entrevistado">data de nascimento:</label><br>
+                <input type="date" id="data-nascimento" name="data-nascimento"><br><br>
+                
+                <label for="genero" id="genero">Gênero:</label> <br>
+                <input type="text" name="genero" id="sexo"> <br><br>
+                
+                <label for="cidade-origem" id="cidade-origem">Cidade de origem:</label><br>
+                <input type="text" name="cidade" id="cidade">
+                <br><br>
+
+            </div>
+
+            <div class="formulario3">
+                
+                <label for="documento" id="documento">tem documentos de identidade (RG,CPF,CNH)?: </label>
+                <br>
+                <input type="text" id="input-documento" name="input-documento">
+                <br><br>
+        
+                <label for="contato" id="contato-familia">possui algum meio de contato? se sim, qual?</label><br>
+                <input type="text" name="texto-pequeno" id="texto-pequeno">
+                <input type="text" name="texto-grande" id="texto-grande">
+                <br><br>
+
+            </div>
+
+            <div class="formulario4">
+               
+                <label for="beneficio" id="beneficio">Está em situação de rua, ou tem acesso a  algum tipo de moradia 
+                <br>(albergue, ocupação, comunidade, pensão, etc.)? </label>
+                <input type="text" id="moradia" name="moradia">
+                <br><br>
+
+                <label for="albergue" id="albergue">Se em albergue, qual?</label> 
+                <br>
+                <input type="text" id="text-albergue" name="text-albergue"> 
+                <br><br>
+            
+                <label for="leito" id="leito">leito:</label> 
+                <input type="text" id="text-leito" name="text-leito"> 
+                
+            
+                
+            </div> 
+
+          <div class="formulario5">
+
+            
+                <label for="assistente-social" id="assistente-social">assistente-social:</label> 
+                <br>
+                <input type="text" id="text-assistente-social" name="text-assistente-social"> 
+                <br><br>
+            
+                <label for="contato" id="contato-usuario">contato:</label> 
+                <br>
+                <input type="text" id="texto-contato" name="contato">
+                <br><br>
+
+                <label for="vulneravel" id="texto-vulneravel"> Há quanto tempo está em <br> situação de vulnerabilidade?</label><br>
+                <input type="text" id="vulneravel" name="vulneravel"> <br><br>
+
+            </div> 
+
+            <div class="formulario6">
+
+                <label for="situaçao" id="situaçao"> O que te fez ficar nesta situação?</label>
+                <br>
+                <input type="text" id="situaçao-usuario" name="situaçao-usuario">
+                <br><br>
+                
+                <label for="higiene" id="usuario-higiene">Toma banho e faz higiene pessoal <br> com que frequência e de que forma?</label><br>
+                <input type="text" id="higiene" name="higiene">
+                <br><br>
+
+                <label for="refeiçao" id="usuario-refeiçao">Quantas refeições por dia faz geralmente?</label>
+                <br>
+                <input type="text" id="refeiçao" name="refeiçao">
+                <br><br>
+
+                <label for="beneficio-governo" id="beneficio-governo">Recebe algum benefício do governo (Bolsa Família, LOAS)? <br> Em caso
+                    negativo, investigar se teria algum direito.</label> <br>
+                <input type="text" id="governo" name="governo"> <br><br>   
+            </div>
+
+            <div class="formulario7">
+                <label for="vicio" id="vicio">Tem algum vício?</label>
+                <br>
+                <input type="text" id="vicio-droga" name="vicio">
+                <br>
+                
+                <label for="tratamento" id="tratamento">Em caso positivo, faz ou já fez algum tipo de tratamento? <br> Se sim,
+                    qual? Investigar encaminhamento para tratamento.</label>
+                    <br>
+                <input type="text" id="tratamento-vicio" name="tratamento"><br><br>
+                
+                <label for="familia" id="familia">Possui família? Em caso positivo, vive ou mantém contato com a
+                    mesma? <br> Investigar possibilidade de "volta ao lar".
+                </label>
+                <input type="text" id="parente" name="familia">
+                    <br><br>
+
+                <label for="escolaridade" id="escolaridade">Grau de escolaridade:</label>
+                    <br>
+                <input type="text" id="grau-ensino" name="escolaridade">
+                    <br><br>
+            
+            </div>
+
+            <div class="formulario8">
+                <label for="profissao" id="profissao">Profissão:</label><br>
+                <input type="text" id="texto-profissao" name="profissao">
+                
+                <br><br>
+
+                <label for="trabalho" id="trabalho">Já trabalhou ou trabalha? Com o quê?</label><br>
+                <input type="text" id="texto-trabalho" name="trabalho">
+                
+                <br><br>
+
+                <label for="doença" id="doença">Possui alguma deficiência ou doença grave? Se sim, faz
+                acompanhamento médico pelo SUS?</label>
+                
+                <br>
+                
+                <input type="text" id="texto-doença" name="doença">
+                
+                <br><br>
+
+                <label for="problema" id="problema">Possui algum problema de visão? Investigar a necessidade de óculos</label><br>
+                <input type="text" id="problema-saude" name="problema">
+                    <br><br>
+            </div>
+
+             <div class="formulario9">
+                <label for="queixa-dental">Possui alguma queixa dental? Investigar necessidade de consulta com
+                    dentista.</label>
+                    <br>
+                <input type="text" id="texto-queixa-dental" name="queixa-dental">
+                    <br><br>
+                
+                <label for="hobby">Tem algum hobby?</label><br>
+                <input type="text" id="texto-hobby" name="hobby">
+                <br><br>
+                
+                <label for="disponibilidade-curso">Tem interesse e disponibilidade para fazer cursos?</label><br>
+                <input type="text" id="texto-curso" name="disponibilidade-curso">
+                <br><br>
+
+                <label for="passeios-culturais">Tem interesse e disponibilidade para realizar passeios culturais, <br> como
+                    assistir a uma peça de teatro, por exemplo?</label><br>
+                <input type="text" id="texto-passeios-culturais" name="passeios-culturais">
+
+            </div>
+           
+        </div>
+        <button type="submit">enviar formulario</button>
+        </form>
+    </header>
+</body>
+</html>
